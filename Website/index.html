@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DongHoon Jeong</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">DongHoon</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="projects-page">
+              Projects
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <div class="intro" id="home">
+      <div class="intro__container">
+        <h1 class="intro__heading">
+          Hey, I'm <br />
+          <span>DongHoon Jeong!</span>
+        </h1>
+        <p class="intro__description">Computer Science at UWaterloo</p>
+        <button class="main__btn"><a href="#">Resume</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <img src="/images/profile.png" alt="Profile Pic" />
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>About Me</h1>
+          <p>
+            I'm a Computer Science student from Toronto, Canada. I am extremely
+            passionate about sports, video games and coding. I aspire to make a
+            difference in the world and use my skills to help those who need it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects" id="projects">
+      <h1>My Projects!</h1>
+      <div class="projects__wrapper">
+        <div class="projects__card">
+          <h2>Social Clone</h2>
+          <p>React & NodeJS Social Clone!</p>
+          <div class="projects__btn">
+            <a href="#" target="_blank"></a>
+          </div>
+        </div>
+        <div class="projects__card">
+          <h2>Duck Defense</h2>
+          <p>Java & LibGDX Tower Defense Game!</p>
+          <div class="projects__btn">
+            <a href="#" target="_blank"></a>
+          </div>
+        </div>
+        <div class="projects__card">
+          <h2>Colonel Banana</h2>
+          <p>Java & Greenfoot Wave Game!</p>
+          <div class="projects__btn">
+            <a href="#" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Sections -->
+    <div class="contact" id="contact">
+      <h1>Contact</h1>
+      <h2>Let's talk tech :)</h2>
+      <div class="contact__wrapper">
+        <div class="contact__link">
+          <a href="https://www.linkedin.com/in/donghoon-jeong/" target="_blank"> 
+            <i class="fab fa-linkedin"></i>
+            <p>@DongHoon Jeong</p>
+          </a>
+        </div>
+        <div class="contact__link">
+          <a href="https://github.com/DJHoon24" target="_blank">
+            <i class="fab fa-github"></i>
+            <p>@djhoon24</p>
+          </a>
+        </div>
+        <div class="contact__link">
+          <a href="https://www.instagram.com/djhoon24/" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <p>@djhoon24</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
