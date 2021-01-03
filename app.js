@@ -43,9 +43,12 @@ const highlightMenu = () => {
     projectsMenu.classList.remove('highlight')
     return
   }
-
-  if((elem && window.innerWidth < 960 && scrollPos < 650) || elem){
+  else if((elem && window.innerWidth < 960 && scrollPos < 650) || elem){
     elem.classList.remove('hightlight')
+    homeMenu.classList.remove('highlight')
+    aboutMenu.classList.remove('highlight')
+    projectsMenu.classList.remove('highlight')
+    contactMenu.classList.remove('highlight')
   }
 }
 

@@ -351,7 +351,10 @@
   align-items: center;
   border-radius: 4px;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
-  
+}
+
+.main__img--card img {
+  width: 250px;
 }
 
 /* Mobile Responsive */
@@ -447,17 +450,23 @@
   color: transparent;
 }
 
-.projects__card {
+.projects__card{
   margin: 10px;
   height: 650px;
   width: 500px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   transition: 0.3s ease-in;
+}
+
+.projects__card--img img{
+  height: 300px;
+  padding-bottom: 20px;
 }
 
 .projects__link:nth-child(2) .projects__card{
